@@ -1,0 +1,93 @@
+/*parte de cima*/
+body{
+    margin: 0;
+}
+
+.logo{ 
+    margin-top: 0;
+    background-color:  rgb(255, 0, 0);
+    height: 10vh;
+}
+
+h2{
+    padding-top: 10px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 200px;
+    font-size: 40vh;
+}
+
+
+.imagens img {
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+    margin-top: 0px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+    padding-top: 15px;
+}
+
+/*navegação*/
+
+
+
+.pincipal{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+/*unidades*/
+
+.historia{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.unidades{
+    background-color: rgb(241, 236, 236);
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.unidadestexto{
+    color: black;
+    font-size: 40px; 
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    
+iframe{
+    padding-right: 10px;
+    padding-top: 20px;
+    width: 100vh;
+    height: 60vh;
+}
+
+/*final*/
+
+.final{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  /*para cell*/
+
+  @media (min-width: 299px) and (max-width:999px)  {
+
+    body{
+        margin: 0;
+    }
+
+    .logo{ 
+        display: none;
+    }
+  }

@@ -1,0 +1,214 @@
+/*parte de cima*/
+body{
+    margin: 0;
+}
+
+.logo{ 
+    margin-top: 0;
+    background-color:  rgb(255, 0, 0);
+    height: 10vh;
+}
+
+h2{
+    padding-top: 10px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 200px;
+    font-size: 40vh;
+}
+
+
+.imagens img {
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+    margin-top: 0px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+    padding-top: 15px;
+}
+
+/*navegação*/
+
+
+
+.pincipal{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+/*aleatorio*/
+
+.aleatorio{
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.item{
+    margin: 5px;
+    background-color: #ccc;
+    opacity: 80%;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 50px;
+}
+p{
+    max-width: 200px;
+    max-height: 70px;
+}
+
+.grid{ 
+    max-height: 300px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+/*grid*/
+
+.grid{
+    display: grid;
+}
+
+.grid-tamplate-columns-1{
+    grid-template-columns: repeat(4,4fr);
+}
+
+/*recomendados*/
+
+.recomendados{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+/*mais comprados*/
+
+.marcas{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.marcas2{
+   margin-top: 0;
+}
+
+h3{
+    padding-top: 10px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 40px;
+    font-size: 40vh;
+}
+
+.imagens2 img {
+    height: 250px;
+    width: 250px;
+    margin-right: 2px;
+    margin-top: 0px;
+}
+
+.imagens2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-right: 1000px;
+    padding-top: 15px;
+}
+
+.imagens2 p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+  /*final*/
+
+  .final{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  /*final2*/
+
+  h4{
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+  .final2{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  /*cadastro*/
+
+  .cadastro{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    
+  }
+
+ .cadastrotexto p{
+    padding: 10px;
+    font-size: 25px;
+  }
+  .g-2{
+    padding: 10px;
+  }
+
+  .col-auto{
+    padding: 10px;
+  }
+
+  /*footer*/
+
+.h5{
+    padding-top: 10px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 200px;
+    font-size: 40vh;
+}
+
+
+/*para celular*/
+
+@media (min-width: 299px) and (max-width:999px)  {
+
+    body{
+        margin: 0;
+    }
+
+    .logo{ 
+        display: none;
+    }
+
+    /*carrocel*/
+
+    .pincipal{
+        
+        margin: 0 auto;
+        
+    }
+    
+    /*aleatorio*/
+
+    .aleatorio{
+        display: none;
+    }
+
+    
+}
+
